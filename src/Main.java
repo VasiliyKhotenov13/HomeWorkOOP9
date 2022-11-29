@@ -1,4 +1,6 @@
 import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,5 +34,20 @@ public class Main {
             System.out.println("---------------------------------------------" +
                     "--------------------------------");
         }
+
+        System.out.println("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺");
+
+        RandomNum randomNum = new RandomNum();
+
+        randomNum.addRandom("str1", 5);
+        randomNum.addRandom("str2", 2);
+        randomNum.addRandom("str3", 6);
+        randomNum.addRandom("str4", 5);
+        randomNum.addRandom("str5", 4);
+        randomNum.addRandom("str6", 3);
+        randomNum.addRandom("str7", 2);
+//        randomNum.addRandom("str1", 5);
+
+        randomNum.printAllRandomNum();
     }
 }
