@@ -1,6 +1,4 @@
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,7 +60,23 @@ public class Main {
         System.out.println("Вторая коллекция!");
         System.out.println( listMap.convertCollection());
 
+        System.out.println("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺");
 
+        Map<Integer, String> map = new LinkedHashMap<>();
+        map.put(2, "map2");
+        map.put(4, "map4");
+        map.put(1, "map1");
+        map.put(6, "map6");
+        map.put(3, "map3");
+        map.put(7, "map7");
+        map.put(5, "map5");
+        map.put(9, "map9");
+        map.put(8, "map8");
+        map.put(10, "map10");
+
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
 
     }
 }
