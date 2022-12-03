@@ -49,5 +49,20 @@ public class Main {
 //        randomNum.addRandom("str1", 5);
 
         randomNum.printAllRandomNum();
+
+        System.out.println("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺");
+
+        ListMap listMap = new ListMap();
+
+        System.out.println("Первая коллекция!");
+        System.out.println(listMap.keysAndValues());
+
+        System.out.println();
+
+        System.out.println("Вторая коллекция!");
+        System.out.println( listMap.convertCollection());
+
+
+
     }
 }
